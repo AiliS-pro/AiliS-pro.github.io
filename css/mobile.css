@@ -12,6 +12,7 @@
     position: fixed;
   }
   header .left-box {
+    width: 30%;
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
@@ -23,13 +24,13 @@
     font-size: 26px;
   }
   header .right-box {
+    width: 60%;
     display: flex;
   }
   header .my {
     opacity: 0.3;
     font-size: 50px;
     position: absolute;
-    right: 220px;
     top: -25px;
     font-family: 'Apple Chancery',sans-serif;
   }
@@ -41,16 +42,16 @@
   }
   header .title-box {
     text-align: right;
-    font-size: 14px;
+    font-size: 12px;
     padding: 25px 0px 15px;
     opacity: 0.9;
   }
-  /* header .tel {
-    
+  header .tel {
+    line-height: 16px;
   }
   header .address {
     
-  } */
+  }
   header .info-box {
     padding: 25px 0px 15px 5px;
     font-size: 12px;
