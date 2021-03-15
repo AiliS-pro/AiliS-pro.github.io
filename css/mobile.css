@@ -5,7 +5,7 @@
     height: 70px;
     background-color: #1b1c80;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     color: white;
     padding: 0px 1% 0px 3%;
     z-index: 1;
@@ -31,7 +31,7 @@
     font-size: 50px;
     position: relative;
     top: -23px;
-    left: 55px;
+    left: 20%;
     font-family: 'Apple Chancery',sans-serif;
   }
   header .mydesign {
