@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 0px 20px;
+    padding: 0px 1% 0px 3%;
     z-index: 1;
     position: fixed;
   }
@@ -29,9 +29,9 @@
   header .my {
     opacity: 0.3;
     font-size: 50px;
-    position: absolute;
-    right: 210px;
+    position: relative;
     top: -23px;
+    left: 55px;
     font-family: 'Apple Chancery',sans-serif;
   }
   header .mydesign {
@@ -45,12 +45,12 @@
     font-size: 12px;
     padding: 25px 0px 15px;
     opacity: 0.9;
-    line-height: 15px;
   }
-  /* header .tel {
-    
+  header .tel {
+    margin-top: 1px;
+    margin-bottom: 3px;
   }
-  header .address {
+  /* header .address {
     
   } */
   header .info-box {
