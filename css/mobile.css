@@ -32,7 +32,7 @@
     position: relative;
     top: -23px;
     left: 20%;
-    margin-left: -60px;
+    margin-left: -50px;
     font-family: 'Apple Chancery',sans-serif;
   }
   header .mydesign {
@@ -51,9 +51,9 @@
     margin-top: 1px;
     margin-bottom: 3px;
   }
-  /* header .address {
-    
-  } */
+  header .address {
+    white-space: nowrap;
+  }
   header .info-box {
     padding: 25px 0px 15px 5px;
     font-size: 12px;
