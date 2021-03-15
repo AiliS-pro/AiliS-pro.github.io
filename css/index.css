@@ -1,0 +1,6 @@
+@import url("pc.css");
+@import url("mobile.css");
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
