@@ -130,6 +130,7 @@
       var start = document.getElementById("sound-on");
       var stop = document.getElementById("sound-off");
       if (element.classList.contains("on") == true ){
+        element.volume = 0.05;
         element.play();
         element.classList.remove("on");
         start.classList.remove("hide");
